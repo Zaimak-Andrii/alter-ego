@@ -1,0 +1,26 @@
+{
+  "header": {
+    "navigation": {
+      "home": "Home",
+      "news": "News"
+    },
+    "user": {
+      "profile": "Profile",
+      "login": "Login",
+      "welcome": "Welcome, {{userName}}"
+    }
+  },
+  "profile": {
+    "welcome": "Welcome, {{userName}}",
+    "logout": "Logout"
+  },
+  "posts": {
+    "delete": "Delete",
+    "load_more": "Load more"
+  },
+  "auth": {
+    "login": "Login",
+    "password": "Password",
+    "signin": "Sign in"
+  }
+}
