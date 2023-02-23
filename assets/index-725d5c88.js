@@ -1,0 +1,1 @@
+import{j as o,T as t}from"./index-c701694e.js";import{P as e}from"./Page-99234618.js";const n=()=>o(e,{children:o(t,{component:"h2",variant:"h2",textAlign:"center",children:"Not Found Page"})}),s=n;export{s as default};
