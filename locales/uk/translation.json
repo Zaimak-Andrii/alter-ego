@@ -1,0 +1,27 @@
+{
+  "header": {
+    "navigation": {
+      "home": "Головна",
+      "news": "Новини"
+    },
+    "user": {
+      "profile": "Профіль",
+      "login": "Вхід",
+
+      "welcome": "Вітаємо, {{userName}}"
+    }
+  },
+  "profile": {
+    "welcome": "Вітаємо, {{userName}}",
+    "logout": "Вихід"
+  },
+  "posts": {
+    "delete": "Видалити",
+    "load_more": "Завантажити ще"
+  },
+  "auth": {
+    "login": "Логін",
+    "password": "Пароль",
+    "signin": "Увійти"
+  }
+}
