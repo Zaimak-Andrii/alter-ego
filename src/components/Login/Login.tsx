@@ -11,6 +11,8 @@ import { loginThunk } from '@/redux/auth/auth.thunk';
 import { LoginForm } from './Login.styled';
 import { FormInput, FormPasswordInput } from '@/components/form';
 
+// Я використовувал би для форми бібіліотеку react-hook-forms. (В т/з не було цієї бібліотеки, тому зробив звичайним методом)
+
 const Login = () => {
   const { t } = useTranslation();
   const dispatch = useAppDispatch();

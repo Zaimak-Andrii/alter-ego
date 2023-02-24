@@ -8,6 +8,10 @@ import { NewsList } from '@/components/News';
 import useFetch from '@/hooks/useFetch';
 import { Typography } from '@mui/material';
 
+// Я використовувал би для форми бібіліотеку RTK-Query якщо є redux у проєкті. (Чи react-query, якщо немає redux)
+// Не додав пости в redux, так як немає сенсу (у данному випадку) його додавати. У redux повинні зберігатися загальні данні використовуємі в додатку.
+// (В т / з не було цієї бібліотеки, тому зробив звичайним методом)
+
 const NewsPage = () => {
   const { t } = useTranslation();
   const [posts, setPosts] = useState<PostType[]>([]);
