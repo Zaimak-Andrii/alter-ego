@@ -1,0 +1,1 @@
+import{j as e,T as o}from"./index-0b7448f1.js";import{P as a}from"./Page-d4d0a8ad.js";const r=()=>e(a,{children:e(o,{component:"h1",variant:"h1",textAlign:"center",children:"Home page"})}),m=r;export{m as default};
