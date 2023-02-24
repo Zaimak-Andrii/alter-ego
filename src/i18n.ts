@@ -26,6 +26,12 @@ i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
+    backend: {
+      loadPath:
+        import.meta.env.MODE !== 'production'
+          ? `./locales/{{lng}}/{{ns}}.json`
+          : `/alter-ego/locales/{{lng}}/{{ns}}.json`,
+    },
     detection: {
       lookupLocalStorage: 'language',
     },
